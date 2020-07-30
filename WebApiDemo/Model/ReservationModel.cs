@@ -23,6 +23,7 @@ namespace ReservationWebAPI.Model
     public class UserModel
     {
         public int UserId { get; set; }
+
         public string UserName { get; set; }
         public bool IsActive { get; set; }
     }
